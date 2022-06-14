@@ -1107,7 +1107,7 @@ h4 {
 @media all and (max-width: 767px) {
   .number .copy {
     position: absolute;
-    top: 3px;
+    top: 14px;
     right: 0;
     width: 20px;
     height: 20px;
