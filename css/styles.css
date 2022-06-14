@@ -910,6 +910,7 @@ main {
 @media all and (max-width: 767px) {
   .logo_img {
     font-size: 20px;
+    letter-spacing: 7.1px;
   }
 }
 
@@ -925,7 +926,7 @@ main {
 
 @media all and (max-width: 767px) {
   .tit {
-    font-size: 32px;
+    font-size: 34px;
   }
 }
 
