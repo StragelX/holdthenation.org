@@ -840,7 +840,7 @@ body.no_scroll {
   margin-right: auto;
 }
 
-@media all and (max-width: 1380px) {
+@media all and (max-width: 1500px) {
   .container {
     padding-left: 20px;
     padding-right: 20px;
@@ -994,11 +994,17 @@ h1 {
   margin-bottom: 90px;
 }
 
+@media all and (max-width: 1500px) {
+  h1 {
+    font-size: 150px;
+    line-height: normal;
+    margin-bottom: 20px;
+  }
+}
+
 @media all and (max-width: 1400px) {
   h1 {
     font-size: 120px;
-    line-height: normal;
-    margin-bottom: 20px;
   }
 }
 
