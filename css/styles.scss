@@ -261,7 +261,9 @@ h4 {
     color: #000000;
 
     @media all and (max-width: 767px) {
-      font-size: 14px;
+      font-size: 12px;
+      line-height: 25px;
+      padding-bottom: 10px;
     }
   }
 
@@ -273,7 +275,7 @@ h4 {
 
     @media all and (max-width: 767px) {
       position: absolute;
-      top: 14px;
+      bottom: 16px;
       right: 0;
       width: 20px;
       height: 20px;
