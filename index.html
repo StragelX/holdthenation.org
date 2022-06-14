@@ -67,7 +67,8 @@
                                 <p>UA093052990000026004025029786</p>
                             </div>
 
-                            <button class="copy"></button>
+                            <input hidden type="text" value="UA093052990000026004025029786" id="myInput1">
+                            <button class="copy"  onclick="myFunction1()"></button>
                         </div>
 
                         <div class="number df">
@@ -76,7 +77,8 @@
                                 <p>UA093052990000026004025029786</p>
                             </div>
 
-                            <button class="copy"></button>
+                            <input hidden type="text" value="UA093052990000026004025029786" id="myInput1">
+                            <button class="copy"  onclick="myFunction1()"></button>
                         </div>
 
                         <div class="number df">
@@ -85,7 +87,8 @@
                                 <p>UA093052990000026004025029786</p>
                             </div>
 
-                            <button class="copy"></button>
+                            <input hidden type="text" value="UA093052990000026004025029786" id="myInput1">
+                            <button class="copy"  onclick="myFunction1()"></button>
                         </div>
                     </div>
                 </div>
@@ -93,4 +96,26 @@
         </div>
     </main>
 </body>
+<script>
+    function myFunction1() {
+        var copyText = document.getElementById("myInput1");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+    }
+
+    function myFunction2() {
+        var copyText = document.getElementById("myInput2");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+    }
+
+    function myFunction3() {
+        var copyText = document.getElementById("myInput3");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+    }
+</script>
 </html>
