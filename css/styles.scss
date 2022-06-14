@@ -55,6 +55,10 @@ main {
   flex: 1 1 auto;
   min-height: auto;
   background: #F9FBFB url('../img/Vector.svg') no-repeat top right;
+
+  @media all and (max-width: 760px) {
+    background: #F9FBFB;
+  }
 }
 
 .head {
@@ -65,6 +69,10 @@ main {
   @media all and (max-width: 1400px) {
     padding-top: 10px;
     margin-bottom: 0;
+  }
+
+  @media all and (max-width: 767px) {
+    flex-wrap: wrap;
   }
 }
 .logo {
@@ -85,6 +93,10 @@ main {
   line-height: 23px;
   letter-spacing: 0.4em;
   color: #000;
+
+  @media all and (max-width: 767px) {
+    font-size: 20px;
+  }
 }
 
 .tit {
@@ -95,10 +107,18 @@ main {
   line-height: 68px;
   text-transform: uppercase;
   color: #0071BC;
+
+  @media all and (max-width: 767px) {
+    font-size: 32px;
+  }
 }
 
 .tel {
   margin-left: 65px;
+
+  @media all and (max-width: 760px) {
+    margin-left: 20px;
+  }
 
   ul {
     margin-bottom: 13px;
@@ -127,12 +147,16 @@ main {
 .paper {
   padding: 65px 90px;
   background: #FFF;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
 
-@media all and (max-width: 1400px) {
-  padding: 30px;
-  margin-bottom: 20px;
-}
+  @media all and (max-width: 1400px) {
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+
+  @media all and (max-width: 1025px) {
+    margin-top: 50px;
+  }
 }
 
 h1 {
@@ -150,6 +174,11 @@ h1 {
     font-size: 130px;
     margin-bottom: 20px;
   }
+
+  @media all and (max-width: 767px) {
+    font-size: 46px;
+    line-height: normal;
+  }
 }
 
 h2 {
@@ -166,6 +195,10 @@ h2 {
     font-size: 20px;
     line-height: normal;
   }
+
+  @media all and (max-width: 767px) {
+    font-size: 16px;
+  }
 }
 
 h3 {
@@ -175,6 +208,11 @@ h3 {
   font-size: 25px;
   line-height: 30px;
   color: #000000;
+
+  @media all and (max-width: 767px) {
+    font-size: 14px;
+    line-height: normal;
+  }
 }
 
 h4 {
@@ -189,6 +227,10 @@ h4 {
 
   @media all and (max-width: 1400px) {
     margin-bottom: 20px;
+  }
+
+  @media all and (max-width: 767px) {
+    font-size: 20px;
   }
 }
 
@@ -210,6 +252,10 @@ h4 {
     font-size: 24px;
     line-height: 50px;
     color: #000000;
+
+    @media all and (max-width: 767px) {
+      font-size: 14px;
+    }
   }
 
   .copy {
@@ -217,5 +263,14 @@ h4 {
     height: 40px;
     width: 40px;
     background: url("../img/copy_icon.svg") no-repeat center / 30px auto;
+
+    @media all and (max-width: 767px) {
+      position: absolute;
+      top: 3px;
+      right: 0;
+      width: 20px;
+      height: 20px;
+      background: url("../img/copy_icon.svg") no-repeat center / contain;
+    }
   }
 }
