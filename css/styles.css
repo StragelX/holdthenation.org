@@ -1082,6 +1082,7 @@ h4 {
 .number {
   justify-content: space-between;
   border-bottom: 1px solid #B6B6B6;
+  align-items: baseline;
 }
 
 .number + .number {
@@ -1098,6 +1099,10 @@ h4 {
   font-size: 24px;
   line-height: 50px;
   color: #000000;
+}
+
+.number p.small {
+  font-size: 16px;
 }
 
 @media all and (max-width: 767px) {
